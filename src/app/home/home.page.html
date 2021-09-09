@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <swiper [pagination]="slideOpts.pagination" [initialSlide]="slideOpts.initialSlide" [speed]="slideOpts.speed"
+    [loop]="slideOpts.loop" [autoplay]="slideOpts.autoplay">
+    <swiper-slide>
+      <div class="image-wrapper">
+        <img loading="lazy" width="640" height="360" src="assets/images/genesis/launch-slide-1-new.png" class="first"
+          alt="launch slide" useImg />
+        <img loading="lazy" width="640" height="360" src="assets/images/genesis/launch-slide-1-new.webp" class="first"
+          alt="launch slide" useImg />
+      </div>
+      <div class="slide-content-wrap">
+        <h2>DISCOVER</h2>
+        <p>& EXPLORE</p>
+      </div>
+    </swiper-slide>
+  </swiper>
+</ion-content>
